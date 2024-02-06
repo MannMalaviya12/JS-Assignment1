@@ -1,0 +1,104 @@
+/* styles.css */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #e5ff00;
+}   
+h1,h2{
+    font-family: 'Times New Roman', Times, serif;
+}
+h1 {
+    text-align: center;
+    margin-top: 20px;
+}
+
+section {
+    margin: 20px auto;
+    max-width: 600px;
+    background-color: #ff0000;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+h2{
+    text-align: center;
+    margin-top: 20px;
+}
+
+button{
+    padding: 10px 20px;
+    margin: 5px;
+    border: none;
+    border-radius: 5px;
+    background-color: #00ffff;
+    color: #fff;
+    cursor:grab;
+}
+
+
+#noun1 {
+    padding: 10px 20px;
+    margin: 5px;
+    border: none;
+    border-radius: 5px;
+    background-color: #ea00ff;
+    color: #fff;
+    cursor:grab;
+}
+#verb {
+    padding: 10px 20px;
+    margin: 5px;
+    border: none;
+    border-radius: 5px;
+    background-color: #3c00ac;
+    color: #fff;
+    cursor:grab;
+}
+#adjective{
+    padding: 10px 20px;
+    margin: 5px;
+    border: none;
+    border-radius: 5px;
+    background-color: #0f8d0b;
+    color: #fff;
+    cursor:grab;
+}
+#noun2{
+    padding: 10px 20px;
+    margin: 5px;
+    border: none;
+    border-radius: 5px;
+    background-color: #ff8800;
+    color: #fff;
+    cursor:grab;
+}
+
+#setting{
+    padding: 10px 20px;
+    margin: 5px;
+    border: none;
+    border-radius: 5px;
+    background-color: #f700ff;
+    color: #fff;
+    cursor:grab;
+}
+
+#noun1:hover,#noun2:hover,#verb:hover,#setting:hover,#adjective:hover,#button:hover {
+    background-color: #0004ff;
+}
+p {
+    margin-top: 10px;
+}
+
+#story {
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+#studentId {
+    text-align: center;
+    font-style: italic;
+    color: #888;
+}
