@@ -85,7 +85,7 @@ button{
     cursor:grab;
 }
 
-#noun1:hover,#noun2:hover,#verb:hover,#setting:hover,#adjective:hover,#button:hover {
+#noun1:hover,#noun2:hover,#verb:hover,#setting:hover,#adjective:hover,button:hover {
     background-color: #0004ff;
 }
 p {
